@@ -1,0 +1,11 @@
+.op{
+    color: gold;
+    font-weight: bolder;
+}
+li em{
+    color: orchid;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+}

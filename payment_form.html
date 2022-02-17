@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment_form</title>
+</head>
+<body>
+    <h1>Payment Form -By Nishant Singh Yadav</h1>
+    <hr>
+    <h2>User Information</h2>
+    <form>
+    </form><p>Required fields start with *</p>
+        <p>Name *<input type="text" name="name" required></p>
+        <fieldset>
+        <legend>Gender *</legend>
+        <p>Male <input type="radio" name="gender" id="gender" required>Female<input type="radio" name="gender" id="gender"></p>
+    </fieldset>
+    <fieldset>
+        <p>* Address: <textarea name="adsress" id="adsress" cols="20" rows="5"required></textarea></p>
+        <p>* Mail: <input type="email" name="email" id="email"required></p>
+        <p>* Pincode: <input type="number" name="pincode" id="pincode" required></p>
+        </p>
+    </fieldset>
+    <hr>
+    <hr>
+    <fieldset>
+        <legend>Payment Details</legend>
+        <h2>Card Details</h2>
+        <p> Card Type: 
+            <select name="card_type" id="card_type">
+             <option value="---Select a Card Type---"></option>
+             <option value="visa">Visa</option>
+             <option value="master_card">Master Card</option>
+             <option value="upi">UPI</option>
+            </select>
+        </p>
+        <p>Card number: <input type="number" name="card" id="card"></p>
+        <p>Exp Date: <input type="date" name="date" id="date"></p>
+        <p>Pin Code: <input type="password" name="pass" id="pass"></p>
+        <p>CVV: <input type="password" name="cvv" id="cvv"></p>
+    </fieldset>
+    <input type="submit" value="Pay Now">
+    </form>
+    
+</body>
+</html>

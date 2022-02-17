@@ -1,0 +1,140 @@
+﻿ .loginPopup.swap {
+    top: 0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.loginPopup {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 0;
+    background: #fff;
+    z-index: 99999;
+    overflow: auto;
+    padding: 50px 0;
+    background: #59b36e;
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #59b36e), color-stop(100%, #2077c8));
+    background: linear-gradient(135deg, #59b36e 0%, #2077c8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59b36e', endColorstr='#2077c8', GradientType=1 );
+}
+#closePopup {
+    position: absolute;
+    border: 0;
+    right: 30px;
+    top: 30px;
+    width: 40px;
+    background: transparent;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+}
+#closePopup img {
+    width: 100%;
+}
+.inner-cont {
+    background: #fff;
+    -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    padding: 60px 45px;
+    border-radius: 6px;
+}
+.text-center {
+    text-align: center !important;
+}
+.userLogingraphic {
+    display: inline-block;
+    margin: auto;
+    margin-top: 90px;
+}
+.userLogingraphic img {
+    max-width: 100%;
+}
+.equalHight {
+    border-left: 1px solid #ddd;
+    padding-left: 40px;
+}
+.userLoginFrom {
+    max-width: 400px;
+    margin: auto;
+}
+.loginLogo {
+    width: 200px;
+    margin-bottom: 50px;
+}
+.loginLogo img {
+    width: 100%;
+}
+.userLoginFrom h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.userLoginFrom .form-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+.userLoginFrom .form-group label {
+    width: 100%;
+    font-size: 11px;
+    opacity: 0.5;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.userLoginFrom .form-group input[type=text], .userLoginFrom .form-group input[type=password] {
+    width: 100%;
+    height: 47px;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+    font-weight: bold;
+}
+.userLoginFrom span[id*="rfv"] {
+    position: absolute;
+    right: 0;
+    bottom: -18px;
+    font-size: 12px;
+    color: red;
+}
+.loginPopup .userLoginFrom input[type="password"] {
+    background: #ffffff;
+    color: #111111;
+}
+.text-left {
+    text-align: left !important;
+}
+.userLoginFrom a {
+    color: #3c38d6 !important;
+}
+.userLoginFrom .form-group input[type=submit], .btn_custom {
+    width: 100%;
+    height: 47px;
+    border: 0;
+    background: #c52f33;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+} 
+
+ .loginPopup label {
+  display: inline-block;
+  width: 100px;
+}
+
+.loginPopup div {
+  margin-bottom: 10px;
+}
+
+.login-fields-error {
+  color: red;
+  margin-left: 5px;
+  float:right;
+  font-size:12px;
+}
+
+label.login-fields-error {
+  display: inline;
+}
